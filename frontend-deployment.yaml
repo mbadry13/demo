@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: guestbook-ui
-          image: docker.io/kayvank/guest-book:v1.00123
+          image: gcr.io/google-samples/gb-frontend:v5
           ports:
             - containerPort: 80
